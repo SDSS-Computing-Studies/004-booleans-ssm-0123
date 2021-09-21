@@ -19,3 +19,13 @@ The number is 100
 Enter a number: 102
 The number is larger than 100
 """
+
+num = input("Give me a number")
+num = float(num)
+
+if num > 100 :
+    print("This number is larger than 100")
+elif num == 100 :
+    print("This number is 100")
+elif num < 100 :
+    print("This number is smaller than 100")
