@@ -14,6 +14,8 @@
 
 num = input("Number?")
 num2 = num
+num = float(num)
+num = round(num)
 num = int(num)
 if num == float(num2):
     print("the number is an integer")

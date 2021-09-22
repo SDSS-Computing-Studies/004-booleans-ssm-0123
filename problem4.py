@@ -33,3 +33,40 @@ that is an obtuse triangle
 
 
 """
+
+one = input("First Side")
+sec = input("Second Side")
+thi = input("Third Side")
+
+one = float(one)
+sec = float(sec)
+thi = float(thi)
+
+if one >= thi :
+    if one >= sec :
+        big=one
+        otr1 = sec
+        otr2 = thi
+
+if sec >= thi :
+    if sec >= one :
+        big=sec
+        otr1 = one
+        otr2 = thi
+
+if thi >= one :
+    if thi >= sec :
+        big=thi
+        otr1 = sec
+        otr2 = one
+
+sqr = otr1**2 + otr2**2
+
+if 0.98*(big**2) <= sqr <= 1.02*(big**2) : 
+    print("that is a right triangle")
+
+if big**2<sqr:
+    print("that is an acute triangle")
+
+if big**2>sqr:
+    print("that is an obtuse triangle")
