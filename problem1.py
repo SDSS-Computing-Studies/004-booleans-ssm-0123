@@ -12,13 +12,14 @@
 # "the number is even"
 # "the number is odd"
 
-import math
+
 
 num = input("Number?")
 num = int(num)
 
-if math.remainder(num,2) == 0:
-    print("This number is even")
+
+if num%2 == 0:
+    print("the number is even")
 else :
-    print("This number is odd")
+    print("the number is odd")
 
