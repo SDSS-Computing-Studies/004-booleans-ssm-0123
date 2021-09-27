@@ -40,5 +40,5 @@ c = float(c)
 
 if b**2 - 4 * a * c == 0:
     print("the equation can be factored")
-elif b**2 - 4*a*c <0  :
+else :
     print("the equation can not be factored")
