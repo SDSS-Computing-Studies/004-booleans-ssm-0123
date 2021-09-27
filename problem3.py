@@ -33,7 +33,7 @@ if user == "admin":
         print("Access denied")
 
 else :
-    print("invaild user")
+    print("invalid user")
 
 
 
