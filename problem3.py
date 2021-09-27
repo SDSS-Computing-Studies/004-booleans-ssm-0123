@@ -25,8 +25,10 @@
 """
 
 user = input("Enter Username")
+user = user.strip()
 if user == "admin":
     passw = input("Enter password")
+    passw = passw.strip()
     if passw == "12345password":
         print("Access granted")
     else :
